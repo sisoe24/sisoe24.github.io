@@ -64,10 +64,8 @@ params:
     imageHeight: 300
     imageTitle: profile-pic
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: Play
+        url: play
 
   # home-info mode
   homeInfoParams:
