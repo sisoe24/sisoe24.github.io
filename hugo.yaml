@@ -1,6 +1,6 @@
 baseURL: "https://examplesite.com/"
 title: virgilsisoe
-paginate: 5
+# paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -15,7 +15,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Virgil Sisoe
-  description: "ExampleSite description"
+  description: "ExampleSite Serious description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -59,9 +59,9 @@ params:
     enabled: true # needs to be explicitly set
     title: Virgil Sisoe
     subtitle: "VFX Pipeline Developer"
-    imageUrl: "./data/profile_img.jpeg"
-    imageWidth: 120
-    imageHeight: 120
+    imageUrl: "/data/profile_img.jpeg"
+    imageWidth: 300
+    imageHeight: 300
     imageTitle: profile-pic
     buttons:
       - name: Posts
